@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Mari membuat Table</h1>
+
+    <!-- Membuat Table dengan tag <Table> -->
+    <h4>Tabel standar</h4>
+    <table border="1">
+        <!-- Baris = <tr> -->
+        <!-- Data = <td> -->
+        <!-- Header = <th> -->
+        
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+
+    <h4>Dengan Header</h4>
+    <table border="1">
+        <tr>
+            <th>Senin</th>
+            <td>Matematika</td>
+        </tr>
+        <tr>
+            <th>Selasa</th>
+            <td>Kimia</td>
+        </tr>
+        <tr>
+            <th>Rabu</th>
+            <td>Fisika</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1">
+        <!-- colspan untuk meluaskan kolom/kesamping -->
+        <!-- colspan untuk meluaskan baris/kebawah -->
+        <tr>
+            <th colspan="4">Jadwal</th>
+        </tr>
+        <th>Hari</th>
+        <th>Kegiatan</th>
+        <th>Jam</th>
+        <th>Keterangan</th>
+
+        <tr>
+            <td>Senin</td>
+            <td>Olahraga</td>
+            <td>08.00 WIB</td>
+            <td align="center" rowspan="7">SEHAT</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Belajar</td>
+            <td>07.00 WIB</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>Jalan-jalan</td>
+            <td>08.00 WIB</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Nongkrong</td>
+            <td>20.00 WIB</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>Silaturahmi</td>
+            <td>09.00 WIB</td>
+        </tr>
+        <tr>
+            <td>Sabtu</td>
+            <td align="center" rowspan="2">Tidur</td>
+            <td rowspan="2">21.00 WIB</td>
+        </tr>
+        <tr>
+            <td>Minggu</td>
+        </tr>
+
+    </table>
+</body>
+</html>

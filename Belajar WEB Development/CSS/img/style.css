@@ -1,0 +1,18 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+img {
+    width: 50%;
+}
+
+.artikel {
+    text-align: justify;
+}

@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+ 
+i {
+    color: orange;
+}
+
+q {
+    color: red;
+}
+
+b {
+    color: green;
+}
+
+blockquote {
+    background-color: antiquewhite;
+}

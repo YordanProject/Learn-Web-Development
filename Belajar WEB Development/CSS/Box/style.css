@@ -1,0 +1,28 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    background-color: yellow;
+    padding: 20px;
+    margin-right: 300px ;
+    border: 10px;
+    border-color: chocolate;
+    margin-left: 100px;
+}
+
+.content {
+    background-color: chocolate;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 30px;
+    padding-left: 35;
+    margin-right: 30px;
+}
+
+/* Div memberikan ruang atau bungkusan pada content kita. */

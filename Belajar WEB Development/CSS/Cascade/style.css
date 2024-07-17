@@ -1,0 +1,28 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Aturan Terakhir */
+/* Sistem akan membaca baris terakhir pada code yang dibuat itulah yang akan ditampilkan. */
+
+i {
+    color: red;
+}
+
+i {
+    color: green;
+}
+
+/* Specific */
+
+b {
+    color: blue;    /*Level 1*/
+}
+
+p b {
+    color: burlywood !important;    /*Level 3*/
+}
+
+p b {
+    color: aqua;    /*Level 2*/
+}

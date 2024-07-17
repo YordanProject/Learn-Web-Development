@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: seagreen;
+    text-shadow: 8px  8px 4px grey;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(67, 144, 233);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+a:active {
+    color:red;
+}
+a:after {
+    color: salmon;
+}
+

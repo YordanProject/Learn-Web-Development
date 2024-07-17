@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.berita {
+    margin: 10px;
+    padding: 10px;
+}
+
+.artikel {
+    text-align: justify;
+    padding: 20px;
+}
+
+.nama {
+    color: red;
+}
+
+.tanggal {
+    color: green;
+}
+
+.judul-berita {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.author {
+    font-size: small;
+}
+
+.tragedi {
+    border-style: double;
+    margin: 10px;
+    padding: 10px;
+}

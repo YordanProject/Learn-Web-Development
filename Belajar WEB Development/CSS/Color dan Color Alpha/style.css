@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Ada color dan background-color untuk pewarnaan CSS*/
+/* Alpha adalah tingkat Transparansi pada warna */
+
+/* Color Name */
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chocolate;
+    padding: 15px;
+    text-align: center;
+}
+
+/* RGBA (Red Green Blue Alpha) */
+div {
+    background-color: rgba(100,50,200,0.5);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* RGB (Red Green Blue) */
+.sebutan {
+    color: rgb(45, 230, 28);
+}
+
+/* HSL (Hue Saturation Lightness) */
+.nama {
+    color: hsl(172, 87%, 55%);
+}
+
+/* HSLA (Hue Saturation Lightness Alpha) */
+p {
+    text-align: justify;
+    background-color: hsla(100,15%,20%,0.3);
+    padding: 25px;
+    border-radius: 10px;
+}
+

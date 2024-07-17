@@ -1,0 +1,37 @@
+/* Universal Selector */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Type Selector */
+
+p {
+    color: yellowgreen;
+}
+
+/* Class Selector */
+
+li.eskrim-coklat {
+    color: chocolate;
+}
+
+/* Id Selector */
+
+#eskrimStrawberry {
+    color: pink;
+}
+
+/* Child Selector */
+
+li>i {
+    color: red;
+}
+
+/* Decendant Selector */
+
+ul li {
+    color: green;
+}
+
+/* adjacent sibling selector */

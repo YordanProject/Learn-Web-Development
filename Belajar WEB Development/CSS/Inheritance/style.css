@@ -1,0 +1,23 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.luar {
+    background-color: salmon;
+    border-radius: 15px;
+    padding: inherit;
+
+}
+
+div h1 {
+    text-align: center;
+}
+
+div p {
+    text-align: justify;
+}

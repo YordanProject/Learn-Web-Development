@@ -1,0 +1,17 @@
+* {
+    font-family: monospace;
+}
+
+/* Padding adalah bagian dalam pada border dan membungkus konten */
+.text {
+    width: 100px;
+    border: 5px solid;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.padding-1 {
+    /*       Atas  Kiri Bawah Kanan */
+    padding: 30px 40px 30px 40px;
+
+}

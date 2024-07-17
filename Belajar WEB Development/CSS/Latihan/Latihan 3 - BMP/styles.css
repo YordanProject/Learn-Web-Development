@@ -1,0 +1,58 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.area-peternakan {
+    display: flex;
+    gap: 1rem;
+    border: 5px solid orange;
+    padding: 70px;
+
+}
+
+.hewan-berat {
+    border: 5px solid green;
+    display: flex;
+    padding: 70px;
+    gap: 5rem;
+    width: fit-content;
+
+}
+
+.hewan-unggas {
+    border: 5px solid green;
+    display: flex;
+    padding: 70px;
+    gap: 5rem;
+    width: fit-content;
+}
+
+div h2 {
+    border: 5px solid rgb(46, 171, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.kandang-kambing {
+    border-style: dashed;
+}
+
+.kandang-sapi {
+    border-style: dotted;
+}
+
+.kandang-ayam {
+    border-style: double;
+}
+
+.kandang-bebek {
+    border-style: groove;
+}
+
