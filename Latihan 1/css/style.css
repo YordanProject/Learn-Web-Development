@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h1 b {
+    color: blue;
+}
+
+ol li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ketua {
+    color: red;
+}
+.teknisi {
+    color: chocolate;
+}
+
+.network_eng {
+    color: gold;
+}
+
+.helper {
+    color: green;
+}
